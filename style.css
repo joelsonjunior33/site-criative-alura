@@ -1,4 +1,55 @@
-header {
-    background-color: #424E61;
-    color: white;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cabeçalho {
+
+    background-color: #37306B;
+    color: #faf7f7;
+    display:flex;
+    justify-content: space-around;
+    width: 1440px;
+    height: 100px;
+    align: center
+    padding: 24px 0;
+}
+
+.cabeçalho-imagem {
+width: 20%;
+height: 20%;
+}
+
+.cabeçalho-itens {
+    font-size: 48px;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+}
+.Componente-Curricular {
+    background-color: #ff0000;
+    width: 1440px;
+    height: 400px;
+}
+.Componente-Curricular-Título{
+padding-top: 100px;
+text-align: center;
+font-size: 36px;
+}
+.Componente-Curricular-Paragráfo{
+    text-align: center;
+    font-size: 48px;
+}
+
+.Rodapé {
+    background-color: #37306B;
+    color: rgb(0, 0, 0);
+    display: flex;
+    width: 1440px;
+    height: 100px;
+    font-size: 12px;
 }
